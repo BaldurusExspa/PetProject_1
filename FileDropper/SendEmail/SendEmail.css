@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Open+Sans:wght@400;600&family=Rubik+Spray+Paint&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #282934;
+    overflow: hidden;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
+.sendForm{
+    position: absolute;
+    width: 550px;
+    height: 450px;
+    top: 30%;
+    /* border: 1px solid #c0c0c0; */
+    color: #fff;
+    border-radius: 10px;
+}
+.text-label{
+    padding: 0 0 20px 0;
+}
+.text-center{
+    font-size: 45px;
+    cursor: default;
+}
+.email-input{
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.form-label{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.form-control{
+    height: 50px;
+}
+.back-link{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    margin-left: 80%;
+    text-align: center;
+    padding-top: 10px;
+}
+.button-send{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 100px;
+    padding: 55px 0 0 0;
+}
+.send-button{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border: none;
+}
+.alert{
+    position: absolute;
+    display: none;
+    bottom: 1%;
+    width: 700px;
+}

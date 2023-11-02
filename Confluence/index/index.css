@@ -1,0 +1,314 @@
+@import '/root.css';
+
+/* W3C standard
+   сейчас только для Firefox */
+   * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--index-base-color) #000;
+  }
+  
+  /* для Chrome/Edge/Safari zz*/
+  *::-webkit-scrollbar {
+    height: 5px;
+    width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #000;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--index-base-color);
+    border-radius: 5px;
+    border: 3px solid #000;
+  }
+
+body{
+    background-color: var(--base-color-1);
+    overflow-x: hidden;
+}
+/* Mainframe */
+.mainframe{
+    background-color: var(--mainframe);
+}
+.mainframe-columns-1-card{
+    background-color: var(--index-base-color);
+    color: var(--text-color-2);
+    width: 100vw;
+    height: 100px;
+    border-radius: 0 10px 50px 0;
+}
+.mainframe-columns-1-card span{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2.5rem;
+}
+.mainframe-columns-1{
+    margin-top: 5%;
+}
+.mainframe-columns-2{
+    margin-top: 5%;
+}
+.mainframe-columns-3{
+    margin-top: 10%;
+}
+.mainframe-columns-4{
+    margin-top: 7%;
+}
+.mainframe-columns-5{
+    margin-top: 1.5%;
+}
+.mainframe-columns-2-card{
+    width: 100vw;
+    margin-left: 15%;
+}
+.mainframe-columns-2-card span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+.mainframe-columns-4 span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.mainframe-columns-5 span{
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: 600;
+}
+.button-start-index{
+    width: 15vw;
+    height: 100%;
+    border-radius: 15px;
+    background-color: var(--index-base-color);
+    color: var(--text-color-2);
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: 500;
+}
+/* /Mainframe/ */
+    /* Firstframe */
+    .firstframe{
+        background-color: var(--firstframe);
+    }
+    .firstframe-columns-1{
+        margin-top: 3%;
+        color: var(--text-color-2);
+    }
+    .firstframe-columns-2{
+        margin-top: 2%;
+        color: var(--text-color-2);
+    }
+    .firstframe-columns-3{
+        margin-top: 5%;
+    }
+    .firstframe-columns-4{
+        margin-top: 5%;
+    }
+    .firstframe-columns-1-card .span-1{
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 2.5rem;
+    }
+    .firstframe-columns-1-card .span-2{
+        font-family: 'Open Sans', sans-serif;  
+        font-size: 2rem;
+    }
+    .firstframe-columns-1-card{
+        width: 100vw;
+        margin-left: 5%;
+    }
+    .firstframe-columns-2-card{
+        width: 100vw;
+        margin-left: 8%;
+    }
+    .firstframe-columns-2-card span{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 2rem;
+    }
+    .firstframe-columns-3-1-card-1{
+        width: 55vw;
+        height: 450px;
+        background-color: var(--mainframe);
+        border-radius: 10px 10px 90px 10px;
+    }
+    .firstframe-columns-3-1-card-2{
+        position: absolute;
+        margin-left: 2%;
+        margin-top: 1%;
+        width: 55vw;
+        height: 450px;
+        background-color: transparent;
+        border: 4px solid var(--index-base-color-1);
+        border-radius: 12px 12px 100px 12px;
+    }
+    .button-start-drive{
+        width: 15vw;
+        height: 100%;
+        border-radius: 15px;
+        background-color: var(--index-base-color);
+        color: var(--text-color-2);
+        font-size: 2rem;
+        font-family: 'Open Sans', sans-serif;  
+        font-weight: 500;
+    }
+    /* /Firstframe/ */
+        /* Secondframe */
+        .secondframe{
+            background-color: var(--secondframe);
+        }
+        .secondframe-columns-1{
+            margin-top: 3%;
+            color: var(--text-color-2);
+        }
+        .secondframe-columns-2{
+            margin-top: 2%;
+            color: var(--text-color-2);
+        }
+        .secondframe-columns-3{
+            margin-top: 5%;
+            color: var(--text-color-2);
+        }
+        .secondframe-columns-4{
+            margin-top: 6%;
+            color: var(--text-color-2);
+        }
+        .secondframe-columns-1-card{
+            width: 100vw;
+            margin-left: 5%;
+        }
+        .secondframe-columns-1-card span{
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 2.5rem;
+        }
+        .secondframe-columns-2-card{
+            width: 100vw;
+            margin-left: 8%;
+        }
+        .secondframe-columns-2-card span{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 2rem;
+        }
+        .secondframe-columns-3-card-1{
+            width: 48vw;
+            height: 400px;
+            background-color: var(--mainframe);
+            border-radius: 10px;
+            z-index: 3;
+        }
+        .secondframe-columns-3-card-2{
+            position: absolute;
+            margin-top: 2%;
+            margin-left: 2%;
+            width: 48vw;
+            height: 400px;
+            background-color: var(--index-base-color-1);
+            border-radius: 10px;
+            z-index: 2;
+        }
+        .button-start-article{
+            margin-bottom: 5%;
+            width: 25vw;
+            height: 20%;
+            border-radius: 15px;
+            background-color: var(--index-base-color);
+            color: var(--text-color-2);
+            font-size: 2rem;
+            font-family: 'Open Sans', sans-serif;  
+            font-weight: 500;
+        }
+        .secondframe-columns-4-card{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 2rem;
+        }
+        /* /Secondframe/ */
+/* Footer */
+.footer{
+    background-color: var(--firstframe);
+}
+.footer-columns-1{
+    margin-top: 1%;
+}
+.footer-columns-2{
+    margin-top: 2%;
+}
+.footer-columns-3{
+    margin-top: 2%;
+}
+.footer-columns-4{
+    margin-top: 3%;
+}
+.footer-columns-5{
+    margin-top: 3%;
+}
+.footer-columns-6{
+    margin-top: 0.5%;
+}
+.footer-columns-1 a{
+    text-decoration: none;
+    font-size: 2rem;
+}
+.footer-card-1, .footer-card-2{
+    width: 20vw;
+}
+.footer-card-1{
+    padding-right: 70px;
+}
+.footer-card-2{
+    padding-left: 70px;
+}
+.footer-links{
+    color: var(--text-color-2);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+}
+.footer-links:hover{
+    text-decoration: underline;
+}
+.border-card{
+    width: 70vw;
+    background-color: transparent;
+    border-bottom: 1px solid var(--border-color);
+}
+.footer-columns-5, .footer-columns-6{
+    color: var(--text-color-2);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+}
+/* /Footer/ */
+/* Menu Registr */
+.menuRegistr{
+    display: none;
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    background-color: #6f6f6fc5;
+}
+.menuRegistr-card-1{
+    z-index: 4;
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: var(--base-color-1);
+}
+.menuRegistr-card-2{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 1%;
+    z-index: 3;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: var(--index-base-color-1);
+}
+.menuRegistr-btn{
+    color: var(--text-color-2);
+    width: 300px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.1rem;
+}
+.menuRegistr-btn:hover{
+    color: var(--index-base-color);
+}
+.show{
+    display: flex;
+}
+/* /Menu Registr/ */

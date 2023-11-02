@@ -1,0 +1,37 @@
+@import '/root.css';
+.header{
+    height: 70px;
+    background-color: var(--base-color-2);
+    border-bottom: 1px solid var(--border-color);
+}
+.list-button-open{
+    border: 1px solid var(--border-color);
+    width: auto;
+}
+.header-logo img{
+    width: 40px;
+}
+.nav{
+    display: flex;
+}
+.nav-link{
+    color: var(--text-color-2);
+}
+.nav a{
+    text-decoration: none;
+    color: var(--text-color-2);
+}
+.nav a:hover{
+    width: 100vw;
+    background-color: var(--border-color);
+    border-radius: 5px;
+}
+.button-profile a{
+    font-size: 2rem;
+}
+/* Media */
+@media (max-width: 768px) {
+    .nav{
+        display: none;
+    }
+  }

@@ -1,0 +1,75 @@
+:root{
+    --text-color-base: #8796ce;
+    --text-color-writed: #bbb4b4;
+    --background-base: #10162f;
+    --focus-ring-color: #fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Open+Sans:wght@400;600&family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Open+Sans:wght@400;600&family=Roboto+Condensed:wght@300&family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Open+Sans:wght@400;600&family=Roboto+Condensed:wght@300&family=Roboto+Mono&family=Rubik+Spray+Paint&display=swap');
+/* font-family: 'Open Sans', sans-serif;        Основной
+   font-family: 'Roboto Condensed', sans-serif; Дополнительный
+   font-family: 'Roboto Mono', sans-serif;      Печатный*/
+body{
+    background-image: url(/img/Backgorund.gif);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    /* background: #0d0f17; */
+}
+.btn{
+    color: var(--text-color-base);
+}
+.btn:hover{
+    color: var(--text-color-base);
+}
+.logo-img{
+    width: 50px;
+    height: auto;
+}
+.block{
+    height: 50px;
+}
+/* Sign in link */
+.form-label{
+    color: var(--text-color-base);
+}
+.form-label a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.form-label a:hover{
+    text-decoration: underline;
+}
+/* End link */
+.animation h1 {
+    color: #bbb4b4;
+    width: 180px;
+    font-family: 'Roboto Mono', sans-serif;;
+    font-size: 16px;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+      typing 3.5s steps(30, end),
+      blink-caret 1s step-end infinite;
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange}
+  }
+.input-group:hover{
+    border: 1px solid #172146;
+    border-radius: 7px;
+}
+.arrow-first-field{
+    width: 25px;
+    color: rgb(155, 41, 128);
+}

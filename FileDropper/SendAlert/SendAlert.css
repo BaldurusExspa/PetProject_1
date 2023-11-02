@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Open+Sans:wght@400;600&family=Rubik+Spray+Paint&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #282934;
+    overflow: hidden;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
+.alertForm{
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    top: 25%;
+    border: 1px solid #c0c0c0;
+    background: #3a3b4b;
+    color: #fff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.text-label{
+    position: absolute;
+    top: 1%;
+    padding: 10px 0 0 0;
+}
+.text-center{
+    font-size: 40px;
+    cursor: default;
+}
+.info{
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    /* padding-top: 20px; */
+    cursor: default;
+}
+.alert{
+    position: absolute;
+    display: none;
+    bottom: 1%;
+    width: 700px;
+}

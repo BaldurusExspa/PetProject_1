@@ -1,0 +1,155 @@
+@import '/root.css';
+
+/* W3C standard
+   сейчас только для Firefox */
+   * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--index-base-color) #000;
+  }
+  
+  /* для Chrome/Edge/Safari zz*/
+  *::-webkit-scrollbar {
+    height: 5px;
+    width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #000;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--index-base-color);
+    border-radius: 5px;
+    border: 3px solid #000;
+  }
+
+body{
+  background-color: var(--base-color-1);
+  overflow-x: hidden;
+}
+.company-row{
+  border-bottom: 1px solid var(--border-color);
+}
+.company-icon{
+  width: 40px;
+  height: 40px;
+  font-size: 1rem;
+  border: 1px solid var(--text-color-2);
+  border-radius: 50%;
+}
+.company-name{
+  height: 15%;
+  color: var(--text-color-2);
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+.case-redact{
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--text-color-2);
+  border-radius: 50%;
+}
+.case-redact:hover{
+  border: 1px solid #989898;
+}
+    /* Case-default */
+    .case-row{
+      width: 100%;
+    }
+    .case-info-1{
+      width: 80vw;
+      height: 100%;
+      background-color: var(--base-color-2);
+      border: 1px solid var(--border-color);
+    }
+    .case-info button{
+      font-size: 1.2rem;
+    }
+    .button-case, .button-create-case{
+      width: 100%;
+      height: 25vh;
+    }
+    .button-case{
+      background-color: var(--text-color-2);
+      color: var(--base-color-2);
+    }
+    .button-case:hover{
+      background-color: #989898;
+    }
+    .button-case:active{
+      background-color: var(--base-color-1);
+      color: var(--text-color-2);
+    }
+    .button-create-case{
+      background-color: transparent;
+      border: 1px solid var(--text-color-2);
+      font-family: 'Open Sans', sans-serif;
+      color: var(--text-color-2);
+    }
+    .button-create-case:hover{
+      background-color: var(--base-color-2);
+      color: #989898;
+      border: 1px solid var(--text-color-2);
+    }
+    /* /Case-default/ */
+    /* Case-opened */
+    .case-info-2{
+      width: 80vw;
+      height: 70vh;
+      background-color: var(--base-color-2);
+      border: 1px solid var(--border-color);
+    }
+    .case-opened{
+      width: 98%;
+      height: 98%;
+    }
+    .case-opened-row{
+      width: 98%;
+      height: 10%;
+      border-bottom: 1px solid var(--border-color);
+      font-size: 1.2rem;
+      font-family: 'Open Sans', sans-serif;
+    }
+    .close-case-button{
+      background-color: var(--base-color-1);
+      width: auto;
+    }
+    /* /Case-opened/ */
+      /* Case-list */
+      .case-list-row{
+        width: 98%;
+        height: 85%;
+      }
+      .case-list{
+        width: 99%;
+        height: 99%;
+        background-color: var(--base-color-1);
+      }
+      .add{
+        background-color: var(--base-color-1);
+        border: 1px dotted var(--text-color-2);
+        color: var(--text-color-2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      /* /Case-list/ */
+/* Footer */
+  .footer{
+    color: var(--text-color-2);
+    font-size: 0.9rem;
+  }
+  .footer-row{
+    height: 7vh;
+    background-color: var(--base-color-1);
+    border-top: 1px solid var(--border-color);
+  }
+  .footer-row a{
+    text-decoration: none;
+    color: var(--text-color-2);
+  }
+  .footer-row a:hover{
+    text-decoration: underline;
+  }
+  .footer-card-1, .footer-card-2{
+    width: 50vw;
+  }
+/* /Footer/ */

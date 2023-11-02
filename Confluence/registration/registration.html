@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="registration.css">
+    <link rel="shortcut icon" href="/img/LogoWebIcon.png">
+    <title>Join Anova · Anova</title>
+</head>
+<body>
+    <main>
+        <div class="container-fluid">
+            <div class="header row pt-2">
+                <!-- Logo -->
+                <div class="col-5 d-flex justify-content-center align-items-center">
+                    <div class="block d-flex"><a href="#"><img src="/img/Time logo.png" class="logo-img img-fluid"></a></div>
+                </div>
+                <!-- Sign in link -->
+                <div class="col-7 d-flex justify-content-center align-items-center">
+                    <label class="form-label">Already have an account? <a href="/authorization/authorization.html">Sign in<ion-icon name="arrow-forward-outline"></ion-icon></a></label>
+                </div>
+            </div>
+            <!-- Case 1 animation -->
+            <div class="sing-up-form row">
+                <div class="col-12 mt-5 pt-5 d-flex justify-content-center align-items-center">
+                    <div class="card d-flex justify-content-start align-items-start" style="background: var(--background-base); border: solid 1px #333341; width: 600px; height: 150px;">
+                        <div class="animation ps-3 mt-4">
+                            <h1>Welcome to Anova!</h1>
+                        </div>
+                        <label for="" class="form-label ms-4 pt-3">Who are you*</label>
+                        <div class="input-group ms-4 d-flex justify-content-center align-items-center" style="width: 550px;">
+                            <label for="" class="arrow-first-field d-flex justify-content-center align-items-center"><ion-icon name="arrow-forward-outline"></ion-icon></label>
+                            <select class="form-select" style="background: var(--background-base); border: none; color: var(--text-color-writed);" id="inputGroupSelect01">
+                                <option selected disabled value=""></option>
+                              <option value="1">Работник компании</option>
+                              <option value="2">Владелец компании</option>
+                            </select>
+                            <button type="button" class="btn" id="contiueBtn">Contiue</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="form">
+                <!-- Case 2 -->
+                <div class="sing-up-form-4 row pt-4">
+                    <div class="col-12 d-flex justify-content-center align-items-center">
+                        <div class="card" id="second-card" style="background: var(--background-base); border: solid 1px #333341; width: 600px; height: 130px; display: none;">
+                            <div class="pt-3 pb-3">
+                                <!-- Url -->
+                                <label for="basic-url" class="form-label ms-4 pt-3">Url*</label>
+                                <div class="input-group ms-4 d-flex justify-content-center align-items-center" style="width: 550px;">
+                                  <label for="" class="arrow-first-field d-flex justify-content-center align-items-center"><ion-icon name="arrow-forward-outline"></ion-icon></label>
+                                  <input type="text" class="form-control" style="background: var(--background-base); border: none; color: var(--text-color-writed);" id="basic-url" aria-describedby="basic-addon3 basic-addon4" required>
+                                  <button type="button" class="btn">Contiue</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Case 3 -->
+                <div class="sing-up-form-2 row pt-4" id="second-form">
+                    <div class="col-12 d-flex justify-content-center align-items-center">
+                        <div class="card" id="second-card1" style="background: var(--background-base); border: solid 1px #333341; width: 600px; height: 230px; display: none">
+                            <div class="pt-3 pb-3">
+                                <!-- Username -->
+                                <label for="basic-url" class="form-label ms-4 pt-3">Username*</label>
+                                <div class="input-group ms-4 d-flex justify-content-center align-items-center" style="width: 550px;">
+                                  <label for="" class="arrow-first-field d-flex justify-content-center align-items-center"><ion-icon name="arrow-forward-outline"></ion-icon></label>
+                                  <input type="text" class="form-control d-inline-flex focus-ring focus-ring-secondary" id="inputUsername" style="background: var(--background-base); border: none; color: var(--text-color-writed);" id="basic-url" aria-describedby="basic-addon3 basic-addon4" required>
+                                </div>
+                            </div>
+                            <div class="pb-3">
+                                <!-- Email -->
+                                <label for="basic-url" class="form-label ms-4 pt-3">Email*</label>
+                                <div class="input-group ms-4 d-flex justify-content-center align-items-center" style="width: 550px;">
+                                  <label for="" class="arrow-first-field d-flex justify-content-center align-items-center"><ion-icon name="arrow-forward-outline"></ion-icon></label>
+                                  <input type="email" class="form-control" id="inputEmail" style="background: var(--background-base); border: none; color: var(--text-color-writed);" id="basic-url" aria-describedby="basic-addon3 basic-addon4" required>
+                                  <button type="button" class="btn" id="buttonUsername">Contiue</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Case 4 -->
+                <div class="sing-up-form-3 row pt-4">
+                    <div class="col-12 d-flex justify-content-center align-items-center">
+                        <div class="card" id="second-card2" style="background: var(--background-base); border: solid 1px #333341; width: 600px; height: 345px; display: none;">
+                            <div class="pt-3 pb-3">
+                                <!-- Firstname -->
+                                <label for="basic-url" class="form-label ms-4 pt-3">Firstname*</label>
+                                <div class="input-group ms-4 d-flex justify-content-center align-items-center" style="width: 550px;">
+                                  <label for="" class="arrow-first-field d-flex justify-content-center align-items-center"><ion-icon name="arrow-forward-outline"></ion-icon></label>
+                                  <input type="text" class="form-control" id="inputFirstname" style="background: var(--background-base); border: none; color: var(--text-color-writed);" id="basic-url" aria-describedby="basic-addon3 basic-addon4" required>
+                                </div>
+                            </div>
+                            <div class="pb-3">
+                                <!-- Lastname -->
+                                <label for="basic-url" class="form-label ms-4 pt-3">Lastname*</label>
+                                <div class="input-group ms-4 d-flex justify-content-center align-items-center" style="width: 550px;">
+                                  <label for="" class="arrow-first-field d-flex justify-content-center align-items-center"><ion-icon name="arrow-forward-outline"></ion-icon></label>
+                                  <input type="text" class="form-control" id="inputLastname" style="background: var(--background-base); border: none; color: var(--text-color-writed);" id="basic-url" aria-describedby="basic-addon3 basic-addon4" required>
+                                </div>
+                            </div>
+                            <div class="pb-3">
+                                <!-- Surname -->
+                                <label for="basic-url" class="form-label ms-4 pt-3">Surname*</label>
+                                <div class="input-group ms-4 d-flex justify-content-center align-items-center" style="width: 550px;">
+                                  <label for="" class="arrow-first-field d-flex justify-content-center align-items-center"><ion-icon name="arrow-forward-outline"></ion-icon></label>
+                                  <input type="text" class="form-control" id="inputSurname" style="background: var(--background-base); border: none; color: var(--text-color-writed);" id="basic-url" aria-describedby="basic-addon3 basic-addon4" required>
+                                  <button type="button" class="btn" id="buttonFullName">Contiue</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Case 5 -->
+                <div class="sing-up-form-4 row pt-4 pb-5">
+                    <div class="col-12 d-flex justify-content-center align-items-center">
+                        <div class="card" id="second-card3" style="background: var(--background-base); border: solid 1px #333341; width: 600px; height: 220px; display: none;">
+                            <div class="pt-3 pb-3">
+                                <!-- Password -->
+                                <label for="basic-url" class="form-label ms-4 pt-3">Password*</label>
+                                <div class="input-group ms-4 d-flex justify-content-center align-items-center" style="width: 550px;">
+                                  <label for="" class="arrow-first-field d-flex justify-content-center align-items-center"><ion-icon name="arrow-forward-outline"></ion-icon></label>
+                                  <input type="password" class="form-control" id="passwordFirst" style="background: var(--background-base); border: none; color: var(--text-color-writed);" id="basic-url" aria-describedby="basic-addon3 basic-addon4" required>
+                                </div>
+                            </div>
+                            <div class="pb-3">
+                                <!-- Password -->
+                                <label for="basic-url" class="form-label ms-4 pt-3">Password*</label>
+                                <div class="input-group ms-4 d-flex justify-content-center align-items-center" style="width: 550px;">
+                                  <label for="" class="arrow-first-field d-flex justify-content-center align-items-center"><ion-icon name="arrow-forward-outline"></ion-icon></label>
+                                  <input type="password" class="form-control" id="passwordSecond" style="background: var(--background-base); border: none; color: var(--text-color-writed);" id="basic-url" aria-describedby="basic-addon3 basic-addon4" required>
+                                  <button type="button" class="btn" id="buttonPassword">Contiue</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="registration.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

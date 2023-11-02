@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Open+Sans:wght@400;600&family=Rubik+Spray+Paint&display=swap');
+.header{
+    position: absolute;
+    display: flex;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 90px;
+    background: #2e2f3c;
+    border-bottom: 1px solid #c0c0c0;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+ion-icon{
+    color: #c0c0c0;
+    font-size: 3.7em;
+}
+.logo-img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    width: 100px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid transparent;
+    border-image: linear-gradient(#ffffff00 , #c0c0c0 60%, #ffffff00);
+    -moz-border-image: -moz-linear-gradient(#ffffff00 , #c0c0c0 60%, #ffffff00);
+    -webkit-border-image: -webkit-linear-gradient(#ffffff00 , #c0c0c0 60%, #ffffff00);
+    border-image-slice: 1;
+}
+.logo-web{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}

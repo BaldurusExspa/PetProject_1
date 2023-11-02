@@ -1,0 +1,24 @@
+:root{
+    --base-color-1: #0d0f17;
+    --base-color-2: #000000;
+    --border-color: #333341;
+    --border-color-hover: #1b1b23;
+    --text-color-1: #8796ce;
+    --text-color-2: #e2e2e2;
+    --text-color-2-1: #0d0f17;
+    --button-color: #201f2a;
+    /* Index */
+    --mainframe: #fff;
+    --firstframe: #080810;
+    --secondframe: #090D34;
+    --index-base-color: #0976DB;
+    --index-base-color-1: #ff9d00;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Open+Sans:wght@400;600&family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Open+Sans:wght@400;600&family=Roboto+Condensed:wght@300&family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Open+Sans:wght@400;600&family=Roboto+Condensed:wght@300&family=Roboto+Mono&family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap');
+/* font-family: 'Open Sans', sans-serif;        Основной
+   font-family: 'JetBrains Mono', monospace;    Индекс
+   font-family: 'Roboto Condensed', sans-serif; Дополнительный
+   font-family: 'Roboto Mono', sans-serif;      Печатный*/

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Open+Sans:wght@400;600&family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Open+Sans:wght@400;600&family=Roboto+Condensed:wght@300&family=Rubik+Spray+Paint&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #0d0f17;
+    /* 282934 */
+}
+.logo-img{
+    width: 70px;
+    height: auto;
+    border-radius: 60px;
+}
+.sign-in{
+    color: #fff;
+}
+.forget-lbl{
+    font-size: 12px;
+}
+.new-acc{
+    font-size: 14px;
+}
+.a-new-acc{
+    text-decoration: none;
+    outline: none;
+}
+.a-new-acc:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+input{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.alert{
+    position: absolute;
+    /* block or none, for needled alert */
+    display: none;
+    bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 700px;
+}

@@ -1,0 +1,17 @@
+@import '/root.css';
+.header{
+    height: 70px;
+    background-color: var(--base-color-2);
+    border-bottom: 1px solid var(--border-color);
+}
+.header-logo img{
+    width: 40px;
+}
+.nav-link{
+    color: var(--text-color-2);
+}
+.button-sign{
+    color: var(--text-color-2);
+    border: 1px solid var(--text-color-2);
+    margin-right: 5px;
+}
